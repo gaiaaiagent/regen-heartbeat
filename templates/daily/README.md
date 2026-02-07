@@ -17,3 +17,7 @@ The default template ([default.md](default.md)) organizes each day's digest into
 **Reflection** reads previous daily digests from the archive to identify trends, note what has changed, and pose open questions. This is the section that transforms a daily snapshot into a thread in a longer story. Without it, each digest would be an island. With it, the system begins to develop something like memory.
 
 Custom daily templates can emphasize different aspects of the ecosystem or target different audiences. A governance-focused template might expand the Governance Pulse section and drop Chain Health. A community template might center Ecosystem Intelligence and Current Events. The default template tries to be comprehensive, but comprehensiveness is not always the point.
+
+## signal-agent
+
+A minimal daily template used by the `signal-agent` skill to emit the **m010 Reputation Signal (v0 advisory)** section and a deterministic JSON metrics block.
