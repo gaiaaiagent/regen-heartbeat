@@ -1,0 +1,45 @@
+{
+  "source": "ledger",
+  "kind": "snapshot",
+  "as_of": "2026-02-04T12:00:00Z",
+  "items": [
+    {
+      "id": "gov-prop-101",
+      "timestamp": "2026-02-02T10:00:00Z",
+      "title": "Proposal 101: Example parameter update",
+      "url": "ledger://gov/proposals/101",
+      "subjects": [
+        {
+          "subject_type": "CreditClass",
+          "subject_id": "C01-001"
+        }
+      ],
+      "evidence": {
+        "koi_links": [],
+        "ledger_refs": [
+          "ledger://gov/proposals/101"
+        ],
+        "web_links": []
+      }
+    },
+    {
+      "id": "market-activity-777",
+      "timestamp": "2026-02-03T06:00:00Z",
+      "title": "Marketplace activity sample",
+      "url": "ledger://market/activity/777",
+      "subjects": [
+        {
+          "subject_type": "Address",
+          "subject_id": "regen1abcd...wxyz"
+        }
+      ],
+      "evidence": {
+        "koi_links": [],
+        "ledger_refs": [
+          "ledger://market/activity/777"
+        ],
+        "web_links": []
+      }
+    }
+  ]
+}

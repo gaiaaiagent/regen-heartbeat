@@ -1,6 +1,6 @@
 # Regen Heartbeat
 
-An observatory for the Regen ecosystem. Regen Heartbeat generates structured digests about Regen Network, RegenAI, and the Regen Commons -- pulling live data from the blockchain, the KOI knowledge commons, and the wider web, then synthesizing it into readable reports voiced through twelve distinct character personas. The digests are published as a static site via Quartz on GitHub Pages, building an accumulating record of what the ecosystem is doing, thinking, and becoming.
+An observatory for the Regen ecosystem. Regen Heartbeat generates structured digests about Regen Network, RegenAI, and the Regen Commons -- pulling live data from the blockchain, the KOI knowledge commons, and the wider web, then synthesizing it into readable reports voiced through thirteen distinct character personas. The digests are published as a static site via Quartz on GitHub Pages, building an accumulating record of what the ecosystem is doing, thinking, and becoming.
 
 This repository also serves as a working template for Claude Code. Every structural choice -- the skills, output styles, character pipeline, MCP integrations, template system -- is designed to be studied and learned from. Clone it, read it, and you will understand not just what Regen Heartbeat does, but how Claude Code works.
 
@@ -57,7 +57,7 @@ regen-heartbeat/
 
 ## Characters
 
-Twelve characters voice digests with distinct perspectives. They are organized into three groups:
+Thirteen characters voice digests with distinct perspectives. They are organized into three groups:
 
 **Regen** -- The institutional voices of Regen Network and its community.
 - **Narrator** bridges complex ideas to broad audiences through storytelling
@@ -76,6 +76,7 @@ Twelve characters voice digests with distinct perspectives. They are organized i
 
 **Bioregion** -- Place-rooted voices.
 - **Cascadia** speaks from the Pacific Northwest bioregion
+- **Amazonia** speaks from the Amazon basin with citation-grounded ecological science
 
 
 ## Getting Started

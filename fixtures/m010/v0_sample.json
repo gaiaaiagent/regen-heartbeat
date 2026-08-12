@@ -1,0 +1,185 @@
+{
+  "mechanism_id": "m010",
+  "scope": "v0_advisory_replay",
+  "as_of": "2026-02-04T12:00:00Z",
+  "events": [
+    {
+      "timestamp": "2026-02-04T09:00:00Z",
+      "subject_type": "CreditClass",
+      "subject_id": "C01-001",
+      "category": "registry_quality",
+      "endorsement_level": 1,
+      "signaler_id": "signaler_1",
+      "evidence": {
+        "koi_links": [],
+        "ledger_refs": []
+      }
+    },
+    {
+      "timestamp": "2026-02-04T03:00:00Z",
+      "subject_type": "Project",
+      "subject_id": "P-regen-042",
+      "category": "delivery_risk",
+      "endorsement_level": 2,
+      "signaler_id": "signaler_2",
+      "evidence": {
+        "koi_links": [
+          "koi://note/project-1"
+        ],
+        "ledger_refs": [
+          "ledger://tx/1001"
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-02-03T21:00:00Z",
+      "subject_type": "Verifier",
+      "subject_id": "V-DeltaMRV",
+      "category": "attestation_quality",
+      "endorsement_level": 3,
+      "signaler_id": "signaler_3",
+      "evidence": {
+        "koi_links": [
+          "koi://note/verifier-2"
+        ],
+        "ledger_refs": [
+          "ledger://tx/1002"
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-02-03T15:00:00Z",
+      "subject_type": "Methodology",
+      "subject_id": "METH-SoilCarbon-v3",
+      "category": "method_rigor",
+      "endorsement_level": 4,
+      "signaler_id": "signaler_4",
+      "evidence": {
+        "koi_links": [],
+        "ledger_refs": [
+          "ledger://tx/1003"
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-02-03T09:00:00Z",
+      "subject_type": "Address",
+      "subject_id": "regen1abcd...wxyz",
+      "category": "operator_trust",
+      "endorsement_level": 5,
+      "signaler_id": "signaler_1",
+      "evidence": {
+        "koi_links": [
+          "koi://note/address-4"
+        ],
+        "ledger_refs": []
+      }
+    },
+    {
+      "timestamp": "2026-02-03T03:00:00Z",
+      "subject_type": "Project",
+      "subject_id": "P-regen-077",
+      "category": "delivery_risk",
+      "endorsement_level": 1,
+      "signaler_id": "signaler_2",
+      "evidence": {
+        "koi_links": [
+          "koi://note/project-5"
+        ],
+        "ledger_refs": [
+          "ledger://tx/1005"
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-02-02T21:00:00Z",
+      "subject_type": "CreditClass",
+      "subject_id": "C01-001",
+      "category": "registry_quality",
+      "endorsement_level": 2,
+      "signaler_id": "signaler_3",
+      "evidence": {
+        "koi_links": [],
+        "ledger_refs": [
+          "ledger://tx/1006"
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-02-02T15:00:00Z",
+      "subject_type": "Project",
+      "subject_id": "P-regen-042",
+      "category": "delivery_risk",
+      "endorsement_level": 3,
+      "signaler_id": "signaler_4",
+      "evidence": {
+        "koi_links": [
+          "koi://note/project-7"
+        ],
+        "ledger_refs": [
+          "ledger://tx/1007"
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-02-02T09:00:00Z",
+      "subject_type": "Verifier",
+      "subject_id": "V-DeltaMRV",
+      "category": "attestation_quality",
+      "endorsement_level": 4,
+      "signaler_id": "signaler_1",
+      "evidence": {
+        "koi_links": [
+          "koi://note/verifier-8"
+        ],
+        "ledger_refs": []
+      }
+    },
+    {
+      "timestamp": "2026-02-02T03:00:00Z",
+      "subject_type": "Methodology",
+      "subject_id": "METH-SoilCarbon-v3",
+      "category": "method_rigor",
+      "endorsement_level": 5,
+      "signaler_id": "signaler_2",
+      "evidence": {
+        "koi_links": [],
+        "ledger_refs": [
+          "ledger://tx/1009"
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-02-01T21:00:00Z",
+      "subject_type": "Address",
+      "subject_id": "regen1abcd...wxyz",
+      "category": "operator_trust",
+      "endorsement_level": 1,
+      "signaler_id": "signaler_3",
+      "evidence": {
+        "koi_links": [
+          "koi://note/address-10"
+        ],
+        "ledger_refs": [
+          "ledger://tx/1010"
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-02-01T15:00:00Z",
+      "subject_type": "Project",
+      "subject_id": "P-regen-077",
+      "category": "delivery_risk",
+      "endorsement_level": 2,
+      "signaler_id": "signaler_4",
+      "evidence": {
+        "koi_links": [
+          "koi://note/project-11"
+        ],
+        "ledger_refs": [
+          "ledger://tx/1011"
+        ]
+      }
+    }
+  ]
+}

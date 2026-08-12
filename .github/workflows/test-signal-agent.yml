@@ -1,0 +1,27 @@
+name: Test signal-agent
+
+on:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  test-signal-agent:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+      - name: Install
+        run: npm ci
+      - name: Replay m010 fixture (deterministic)
+        run: npm run replay:signal-agent
+      - name: Validate signal-agent digest (no-fabrication gate)
+        run: npm run test:signal-agent
+      - name: Stub-run signal-agent (deterministic)
+        run: npm run stub:signal-agent
+      - name: Validate stub digest (schema + no-fabrication gate)
+        run: SIGNAL_AGENT_DIGEST=content/digests/2026/02/04/signal-agent-stub.md npm run test:signal-agent

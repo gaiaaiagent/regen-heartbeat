@@ -1,0 +1,45 @@
+{
+  "source": "koi",
+  "kind": "search_results",
+  "as_of": "2026-02-04T12:00:00Z",
+  "items": [
+    {
+      "id": "forum-553",
+      "timestamp": "2026-02-03T18:00:00Z",
+      "title": "Announcing Regen AI",
+      "url": "https://forum.regen.network/t/announcing-regen-ai/553",
+      "subjects": [
+        {
+          "subject_type": "Methodology",
+          "subject_id": "METH-SoilCarbon-v3"
+        }
+      ],
+      "evidence": {
+        "koi_links": [
+          "koi://forum/553"
+        ],
+        "ledger_refs": [],
+        "web_links": []
+      }
+    },
+    {
+      "id": "forum-587",
+      "timestamp": "2026-02-03T20:00:00Z",
+      "title": "Automated Regen Digest Platform",
+      "url": "https://forum.regen.network/t/automated-regen-digest-platform/587",
+      "subjects": [
+        {
+          "subject_type": "Project",
+          "subject_id": "P-regen-042"
+        }
+      ],
+      "evidence": {
+        "koi_links": [
+          "koi://forum/587"
+        ],
+        "ledger_refs": [],
+        "web_links": []
+      }
+    }
+  ]
+}

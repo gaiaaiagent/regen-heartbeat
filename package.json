@@ -17,7 +17,11 @@
     "check": "tsc --noEmit && npx prettier . --check",
     "format": "npx prettier . --write",
     "test": "tsx --test",
-    "profile": "0x -D prof ./quartz/bootstrap-cli.mjs build --concurrency=1"
+    "profile": "0x -D prof ./quartz/bootstrap-cli.mjs build --concurrency=1",
+    "replay:signal-agent": "node scripts/replay-m010.mjs fixtures/m010/v0_sample.json content/digests/2026/02/04/signal-agent.md",
+    "test:signal-agent": "node scripts/validate-signal-agent.mjs",
+    "stub:signal-agent": "node scripts/stub-run-signal-agent.mjs stubs/koi.sample.json stubs/ledger.sample.json content/digests/2026/02/04/signal-agent-stub.md",
+    "verify": "node scripts/verify.mjs"
   },
   "engines": {
     "npm": ">=10.9.2",
